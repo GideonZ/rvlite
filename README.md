@@ -6,7 +6,10 @@ It implements rv32i_zicsr, thus with full integer support, barrel shifter, and a
 
 The processor is a 4-stage pipeline: Fetch, Decode, Exec/Mem/CSR, and Writeback. The pipeline supports bubble collapsing. Since this was written for minimal size, it does not do data forwarding, nor branch prediction.
 
-Actual metrics will follow soon in this readme.
+Actual metrics will follow soon in this readme. A quick build with Quartus Prime Pro yields this for a Cyclone 10 without any optimizations, running at max 200 MHz in the -5. 
+
+![image](https://github.com/GideonZ/rvlite/assets/11030985/b886a2fe-6def-4789-8ba5-0a340951e931)
+
 
 **Why??**
 
